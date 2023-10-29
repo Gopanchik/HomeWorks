@@ -9,22 +9,22 @@ public class Car {
         this(10, 200, 60, "black");
     }
 
-    public Car(int year) {
+    public Car(int year, double speed, int weight) {
         this();
         this.year = year;
+        this.speed = speed;
+        this.weight = weight;
     }
-
     public Car(int year, double speed) {
         this();
         this.year = year;
         this.speed = speed;
     }
 
-    public Car(int year, double speed, int weight) {
+
+    public Car(int year) {
         this();
         this.year = year;
-        this.speed = speed;
-        this.weight = weight;
     }
 
     public Car(int year, double speed, int weight, String color) {
