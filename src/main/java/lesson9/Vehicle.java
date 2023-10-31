@@ -4,6 +4,7 @@ class Vehicle {
     double price;
     int speed;
     int year;
+    String name;
 
     public Vehicle(double price, int speed, int year) {
         this.price = price;
@@ -13,7 +14,6 @@ class Vehicle {
 }
 
 class Plane extends Vehicle {
-    String name;
     int numOfPassenger;
 
     public Plane(double price, int speed, int year, String name, int numOfPassenger) {
@@ -30,7 +30,6 @@ class Plane extends Vehicle {
 
 class Car extends Vehicle {
     int id;
-    String name;
     String color;
     int numOfDoor;
 
@@ -51,7 +50,6 @@ class Car extends Vehicle {
 }
 
 class Ship extends Vehicle {
-    String name;
     int numOfPassenger;
     String description;
 
